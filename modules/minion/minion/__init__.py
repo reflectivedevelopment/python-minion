@@ -26,7 +26,7 @@ class minion():
 
         task_parser = argparse.ArgumentParser(description='Minion Tool for doing all your python tasks')
 
-        task_arsg = {}
+        task_args = {}
 
         if len(task._config) > 0:
             for conf in task._config:
